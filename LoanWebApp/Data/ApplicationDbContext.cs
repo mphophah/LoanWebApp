@@ -16,5 +16,9 @@ namespace LoanWebApp
 
         public DbSet<Loan> Loans { get; set; }
 
+        public DbSet<LoanWebApp.Models.LoanViewModel> LoanViewModel { get; set; }
+
+        //public DbSet<LoanWebApp.Models.LoanViewModel> LoanViewModel { get; set; }
+
     }
 }
